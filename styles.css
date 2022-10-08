@@ -1,0 +1,92 @@
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+.container{
+    background-color: hsl(216, 50%, 16%);
+    width: 25%;
+    border-radius: 2%;
+}
+
+.nft-img img{
+    width: 25vw;
+    border-radius: 9%;
+    padding: 7%;
+}
+
+
+.nft-desc{
+    padding: 0 7%;
+}
+
+.eth, .profile{
+    display: flex;
+    padding: 7% 0;
+    
+}
+
+.divider{
+    border: solid 1px;
+}
+.right-margin{
+    padding-right: 50%;
+}
+.divider, .soft-blue{
+    color: hsl(215, 51%, 70%);
+}
+
+h1{
+    padding-bottom: 4%;
+    font-weight: 600;
+}
+.white{
+    color: hsl(0, 0%, 100%);
+}
+
+.avatar{
+    width: 4vw;
+    padding: 0 3%;
+}
+
+@media (max-width:768px){
+    .container{
+        
+        width: 60%;
+        border-radius: 2%;
+    }
+    
+    .nft-img img{
+        width: 60vw;
+        
+    }
+    
+}
+
+@media (max-width:768px){
+    .right-margin{
+        padding-right: 27%;
+    }
+
+    .avatar{
+        width: 8vw;
+    }
+
+    small{
+        font-size: 10px;
+    }
+    
+}
