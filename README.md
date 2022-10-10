@@ -11,7 +11,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-![Desktop screenshot](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/Desktop%20screenshot.jpeg "Desktop screenshot")
+![Desktop screenshot] (https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/Desktop%20screenshot.jpeg "Desktop screenshot")
 
 ### Links
 
