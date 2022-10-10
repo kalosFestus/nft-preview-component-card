@@ -50,12 +50,15 @@ h2{font-size:9px}
     color: hsl(215, 51%, 70%);
 }
 
-h1{
-    padding-bottom: 4%;
+.h1{
     font-weight: 600;
 }
 
-h1 a, h3 a{
+.paragraph{
+    padding-top: 5%;
+}
+
+.h1, h3 a{
     text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
@@ -70,7 +73,7 @@ h1 a, h3 a{
 }
 
 /* Active states */
-h1 a:hover, h3 a:hover{
+.h1:hover, h3 a:hover{
     color:hsl(178, 100%, 50%) ;
 }
 
