@@ -25,9 +25,8 @@
 .nft-img img{
     width: 25vw;
     border-radius: 9%;
-    padding: 7%;
+    padding: 6%;
 }
-
 
 .nft-desc{
     padding: 0 7%;
@@ -36,15 +35,16 @@
 .eth, .profile{
     display: flex;
     padding: 7% 0;
-    
 }
 
 .divider{
     border: solid 1px;
 }
+
 .right-margin{
     padding-right: 50%;
 }
+
 .divider, .soft-blue{
     color: hsl(215, 51%, 70%);
 }
@@ -53,7 +53,9 @@ h1{
     padding-bottom: 4%;
     font-weight: 600;
 }
-.white{
+
+h1 a, h3 a{
+    text-decoration: none;
     color: hsl(0, 0%, 100%);
 }
 
@@ -62,18 +64,44 @@ h1{
     padding: 0 3%;
 }
 
+/* Active states */
+h1 a:hover, h3 a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+.nft-img{
+    position: relative;
+    display: block; 
+    margin-block-end: 1.5rem;
+    cursor: pointer;
+}
+    
+.nft-img:hover::before {
+    content: "";
+    position: absolute;
+    background: url("./images/icon-view.svg") no-repeat;
+    background-color: hsla(178, 100%, 50%, 62%);
+    background-position: 50%;
+    opacity: 1;
+    border-radius: 0.5em;
+    z-index: 1;
+    top:4%;
+    left: 5%;
+    right: 5%;
+    bottom: 4%;
+    width: 90%;
+    height: 90%;
+}
+
 @media (max-width:768px){
     .container{
-        
-        width: 60%;
+         width: 60%;
         border-radius: 2%;
     }
     
     .nft-img img{
         width: 60vw;
-        
     }
-    
 }
 
 @media (max-width:768px){
@@ -88,5 +116,4 @@ h1{
     small{
         font-size: 10px;
     }
-    
 }
