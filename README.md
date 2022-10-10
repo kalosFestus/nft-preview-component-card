@@ -11,10 +11,10 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-Desktop screenshot ![Desktop screenshot](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/Desktop%20screenshot.jpeg "Desktop screenshot")
+Desktop screenshot ![Desktop screenshot](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/desktop%20screenshot.jpeg)
 Desktop active state ![Desktop active state](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/desktop%20active%20screenshot.jpeg)
-Mobile screenshot  ![Mobile screenshot](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/Mobile%20screenshot.jpeg)
-Mobile active state ![Mobile active state](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/mobile%20screenshot%20active.jpeg)
+Mobile screenshot  ![Mobile screenshot](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/mobile%20screenshot.jpeg)
+Mobile active state ![Mobile active state](https://github.com/kalosFestus/nft-preview-component-card/blob/master/images/mobile%20active%20screenshot.jpeg)
 
 ### Links
 
